@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+.overall{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+.header h2{
+    color:hsl(233, 13%, 49%);
+    padding: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+.time{
+    display: flex;
+    color:  hsl(233, 13%, 49%);
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    margin: 30px;
+
+}
+.Annually{
+    margin-right: 10px;
+}
+.monthly{
+    margin-left: 10px;
+
+}
+.header .up{
+    position: absolute;
+    width: 300px;
+    right: 0;
+z-index: 2;
+
+
+
+}
+.header .bot{
+     position: absolute;
+    width: 300px;
+    bottom: 0;
+    left: 0;
+
+
+
+}
+.basic{
+    width: 300px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 350px;
+    z-index:4 ;
+    margin-top: 20px;
+    
+}
+.main{
+    display: flex;
+}
+.basic1{
+    display: flex;
+    justify-content: center;
+    color:  hsl(233, 13%, 49%);
+    padding: 15px;
+
+}
+.amount1{
+    font-size: 40px;
+    color: hsl(232, 13%, 33%);
+    font-weight: bolder;
+}
+.dollar{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;  
+}
+.sign{
+    margin-top: 10px;
+    color: hsl(232, 13%, 33%);
+}
+.one{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border-top: 1px solid  hsl(234, 14%, 74%);
+    border-bottom: 1px solid  hsl(234, 14%, 74%);
+    color:  hsl(233, 13%, 49%);
+    margin: 15px;
+    
+}
+.two{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: 1px solid  hsl(234, 14%, 74%);
+    color:  hsl(233, 13%, 49%);
+    margin: 15px;
+}
+.three{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    /* border-top: 1px solid  hsl(234, 14%, 74%); */
+    border-bottom: 1px solid  hsl(234, 14%, 74%);
+    color:  hsl(233, 13%, 49%);
+    margin: 15px;
+
+}
+.button1{
+    width: 270px;
+    height: 25px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    padding: 15px;
+    color: hsl(240, 78%, 98%);
+    background: linear-gradient(hsl(236, 72%, 79%),  hsl(237, 63%, 64%));
+    margin: 20px;
+}
+.Professional{
+      width: 320px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 400px;
+    z-index:30 ;
+    background-color:hsl(237, 63%, 64%);
+    color: white;
+}
+.pro1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 15px;
+}
+.amount2{
+     font-size: 40px;
+    color:white;
+    font-weight: bolder;
+}
+.dollar1{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;  
+
+}
+.sign1{
+    margin-top: 10px;
+    color:white;
+}
+.TB{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border-top: 1px solid  hsl(234, 14%, 74%);
+    border-bottom: 1px solid  hsl(234, 14%, 74%);
+    color:  white;
+    margin: 15px;
+    
+}
+.Allowed{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: 1px solid  hsl(234, 14%, 74%);
+    color: white;
+    margin: 15px;
+}
+.send{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    /* border-top: 1px solid  hsl(234, 14%, 74%); */
+    border-bottom: 1px solid  hsl(234, 14%, 74%);
+    color:  white;
+    margin: 15px;
+
+}
+.button2{
+     width: 270px;
+    height: 25px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    padding: 15px;
+    color: hsl(240, 78%, 98%);
+    background: white;
+    color: hsl(237, 63%, 64%);
+    margin: 35px;
+    z-index: 2;
+    position: absolute;
+
+}
+.master1{
+    display: flex;
+    justify-content: center;
+    color:  hsl(233, 13%, 49%);
+    padding: 15px;
+
+}
+.amount3{
+    font-size: 40px;
+    color: hsl(232, 13%, 33%);
+    font-weight: bolder;
+}
+.dollar3{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;  
+}
+.sign3{
+    margin-top: 10px;
+    color: hsl(232, 13%, 33%);
+}
+.master{
+    width: 300px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 350px;
+    z-index:4;
+    margin-top: 20px;
+    
+    
+}
+.button3{
+    width: 270px;
+    height: 25px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    padding: 15px;
+    color: hsl(240, 78%, 98%);
+    background: linear-gradient(hsl(236, 72%, 79%),  hsl(237, 63%, 64%));
+    margin: 20px;
+}
+.toggle{
+    margin: right 20px;
+}
+label{
+position:relative;
+width:45px;
+height:25px;
+background:hsl(237, 63%, 64%);
+border-radius:30px;
+display:inline-block;
+transition:background 2s ease-in-out;
+
+
+}
+label::after{
+content:"";
+position:absolute;
+width:20px;
+height:23px;
+border-radius:50%;
+top:1px;
+left:0;
+/* background:linear-gradient(0deg,rgb(48, 45, 45),rgb(79, 74, 74)); */
+background-color:white;
+transition:all ease-in-out .4s
+
+
+}
+.input:checked + label::after{
+left:23px;
+}
+.input:checked + label{
+/* background:linear-gradient(rgb(12, 12, 12),rgb(100, 98, 98)) */
+background-color:hsl(237, 63%, 64%);
+}
+
+.input{
+display:none
+}
+@media screen and (max-width:924px) {
+    .main{
+        display: block;
+    }
+        
+        
+}
